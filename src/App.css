@@ -8,18 +8,6 @@ body {
   color: white;
 }
 
-
-/* Hero Section */
-.hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  min-height: 60vh; /* Takes up the full viewport height */
-  padding: 20px;
-}
-
 .ganesha-logo {
   width: 100px;
   filter: invert(100%) brightness(200%);
@@ -52,28 +40,60 @@ body {
   margin: 20px auto;
 }
 
+.btn {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background-color: #00ffcc;
+  color: black;
+}
+
 .tabs {
-  margin-top: 30px;
-  display: flex;
-  gap: 20px;
-  justify-content: center;
+  display: grid; /* Use grid for layout */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive columns */
+  gap: 10px; /* Add space between buttons */
+  width: 100%; /* Full width of the container */
+  justify-items: center; /* Center-align buttons */
 }
 
 .tab-button {
-  background-color: transparent;
-  border: 2px solid white;
-  color: white;
-  padding: 10px 20px;
-  text-transform: uppercase;
-  border-radius: 20px;
-  transition: background-color 0.3s, color 0.3s;
-  cursor: pointer;
+  background-color: white;
+  color: black;
+  padding: 10px 20px; /* Add padding to buttons */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+  transition: background-color 0.3s, transform 0.3s; /* Hover effect */
 }
 
 .tab-button:hover {
-  background-color: white;
-  color: black;
-}.content-section {
+  background-color: #00ffcc;
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+@media (max-width: 768px) {
+  .tabs {
+    grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+  }
+
+  .tab-button {
+    font-size: 14px; /* Smaller font size on smaller screens */
+  }
+}
+
+.hero {
+  padding: 20px; /* Add padding to ensure content is not cut off */
+  margin: 0 auto; /* Center the content container */
+  max-width: 90%; /* Prevent overflow on smaller screens */
+  box-sizing: border-box; /* Include padding in element's width */
+}
+
+.content-section {
   display: flex; /* Use Flexbox */
   flex-direction: column; /* Stack elements vertically */
   justify-content: center; /* Center content vertically */

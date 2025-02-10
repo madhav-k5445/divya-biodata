@@ -27,23 +27,62 @@ const TabContent = ({ activeTab, goToHome, openTheaterMode }) => {
         <p>
           <strong>కులం:</strong> శెట్టిబలిజ
         </p>
+        <p>
+          <strong>జనన తేది:</strong> 07/09/1998
+        </p>
+        <p>
+          <strong>నక్షత్రం:</strong> ఉత్తరాభాద్ర
+        </p>
+        <p>
+          <strong>పాదం:</strong> 1
+        </p>
+        <p>
+          <strong>రాశి:</strong> మీన
+        </p>
+        <p>
+          <strong>ఎత్తు:</strong> 5’ 4”
+        </p>
+        <p>
+          <strong>రంగు:</strong> చామనచాయ
+        </p>
       </div>
     ),
     family: (
       <div>
         <p>
-          <strong>తండ్రి పేరు:</strong> రాము (వ్యాపారం)
+          <strong>తండ్రి పేరు:</strong> రాము 
         </p>
         <p>
-          <strong>తల్లి పేరు:</strong> భవానీ లావణ్య (గృహిణి)
+          <strong>వృత్తి:</strong> వ్యాపారం
         </p>
         <p>
-          <strong>స్వస్థలం:</strong> రాజోలు
+          <strong>తల్లి పేరు:</strong> భవానీ లావణ్య
         </p>
+        <p>
+          <strong>వృత్తి:</strong> గృహిణి
+        </p>
+        <p>
+          <strong>తాతయ్య:</strong> (లేట్) మాధవరావు 
+        </p>
+        <p>
+          <strong>నాన్నమ్మ:</strong> (లేట్) అలివేలమ్మ
+        </p> 
+        <p>
+          <strong>తమ్ముడు:</strong> దుర్గా మాధవ రావు
+        </p>        
       </div>
     ),
     contact: (
       <div>
+         <p>
+          <strong>స్వస్థలం:</strong> రాజోలు
+        </p>   
+        <p>
+          <strong>జిల్లా:</strong> అంబేద్కర్ కొనసీమ
+        </p>   
+        <p>
+          <strong>ప్రస్తుతం నివాసం:</strong> రాజోలు
+        </p>   
         <p>
           <strong>తండ్రి నంబర్:</strong>{" "}
           <a href="tel:8008809999" style={{ color: "#00ffcc", textDecoration: "underline" }}>

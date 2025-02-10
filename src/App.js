@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Hero from "./components/Hero";
 import TabContent from "./components/TabContent";
 import TheaterMode from "./components/TheaterMode";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import ganeshaLogo from "./assets/ganesha-logo.jpg"; // Import Ganesha logo
 import "./App.css";
 
