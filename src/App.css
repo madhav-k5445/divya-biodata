@@ -8,11 +8,24 @@ body {
   color: white;
 }
 
+
+
+
 .ganesha-logo {
-  width: 100px;
-  filter: invert(100%) brightness(200%);
-  mix-blend-mode: color-dodge;
+  width: 100px; /* Adjust size for mobile screens */
+  height: auto; /* Maintain aspect ratio */
+  filter: invert(100%) brightness(100%);
+  margin: 0 auto; /* Center the image */
+  background: none;
+  mix-blend-mode: color-dodge; 
 }
+
+@media (max-width: 768px) {
+  .ganesha-logo {
+    width: 60px; /* Smaller size for small screens */
+  }
+}
+
 
 .mantra {
   font-size: 1.5rem;

@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import TabContent from "./components/TabContent";
 import TheaterMode from "./components/TheaterMode";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ganeshaLogo from "./assets/ganesha-logo.jpg"; // Import Ganesha logo
+import ganeshaLogo from "./assets/ganesha-logo.png"; // Import Ganesha logo
 import "./App.css";
 
 const App = () => {
@@ -23,9 +23,9 @@ const App = () => {
           alt="Lord Ganesha"
           className="ganesha-logo"
           style={{
-            width: "100px",
-            height: "100px",
-            margin: "70px",
+            width: "150px",
+            height: "150px",
+            margin: "60px",
             
           }}
         />
