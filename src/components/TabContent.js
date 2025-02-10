@@ -62,14 +62,14 @@ const TabContent = ({ activeTab, goToHome, openTheaterMode }) => {
           <strong>వృత్తి:</strong> గృహిణి
         </p>
         <p>
+          <strong>తమ్ముడు:</strong> దుర్గా మాధవ రావు
+        </p>   
+        <p>
           <strong>తాతయ్య:</strong> (లేట్) మాధవరావు 
         </p>
         <p>
           <strong>నాన్నమ్మ:</strong> (లేట్) అలివేలమ్మ
-        </p> 
-        <p>
-          <strong>తమ్ముడు:</strong> దుర్గా మాధవ రావు
-        </p>        
+        </p>      
       </div>
     ),
     contact: (
@@ -87,6 +87,9 @@ const TabContent = ({ activeTab, goToHome, openTheaterMode }) => {
           <strong>తండ్రి నంబర్:</strong>{" "}
           <a href="tel:8008809999" style={{ color: "#00ffcc", textDecoration: "underline" }}>
             8008809999
+          </a>,&nbsp;
+          <a href="tel:9392174369" style={{ color: "#00ffcc", textDecoration: "underline" }}>
+            9392174369
           </a>
         </p>
       </div>
