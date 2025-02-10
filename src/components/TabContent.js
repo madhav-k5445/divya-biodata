@@ -3,7 +3,7 @@ import ImageGallery from "./ImageGallery";
 
 const TabContent = ({ activeTab, goToHome, openTheaterMode }) => {
   const tabHeadings = {
-    personal: "వ్యక్తిగత వివరాలు",
+    personal: " వ్యక్తిగత వివరాలు",
     family: "కుటుంబ వివరాలు",
     contact: "సంప్రదింపు",
     images: "చిత్రాలు",
