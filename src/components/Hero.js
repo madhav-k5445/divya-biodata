@@ -39,7 +39,7 @@ const Hero = ({ showTab }) => {
               className="btn btn-light w-100"
               onClick={() => showTab("personal")}
             >
-              వ్యక్తిగత వివరాలు
+              &nbsp;  వ్యక్తిగత &nbsp; వివరాలు
             </button>
           </div>
           <div className="col-6 col-md-3">
