@@ -16,7 +16,7 @@ const TabContent = ({ activeTab, goToHome, openTheaterMode }) => {
           <strong>పూర్తి పేరు:</strong> కాండ్రేగుల దివ్య తేజస్వి
         </p>
         <p>
-          <strong>విద్యాభ్యాసం:</strong> ఎమ్‌బి‌ఎ
+          <strong>విద్యార్హత:</strong> ఎమ్‌బి‌ఎ
         </p>
         <p>
           <strong>వృత్తి:</strong> ఫైనాన్షియల్ అనలిస్టు
@@ -91,7 +91,7 @@ const TabContent = ({ activeTab, goToHome, openTheaterMode }) => {
 
         </p>   
         <p>
-          <strong>ప్రస్తుతం నివాసం:</strong> రాజోలు
+          <strong>ప్రస్తుత నివాసం:</strong> రాజోలు
         </p>   
         <p>
           <strong>తండ్రి నంబర్:</strong>{" "}
