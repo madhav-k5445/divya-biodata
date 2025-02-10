@@ -28,6 +28,9 @@ const TabContent = ({ activeTab, goToHome, openTheaterMode }) => {
           <strong>కులం:</strong> శెట్టిబలిజ
         </p>
         <p>
+          <strong>గోత్రం:</strong> ధనుంజయ
+        </p>
+        <p>
           <strong>జనన తేది:</strong> 07/09/1998
         </p>
         <p>
@@ -43,7 +46,7 @@ const TabContent = ({ activeTab, goToHome, openTheaterMode }) => {
           <strong>ఎత్తు:</strong> 5’ 4”
         </p>
         <p>
-          <strong>రంగు:</strong> చామనచాయ
+          <strong>రంగు:</strong> ఛామనఛాయ
         </p>
       </div>
     ),
@@ -70,6 +73,12 @@ const TabContent = ({ activeTab, goToHome, openTheaterMode }) => {
         <p>
           <strong>నాన్నమ్మ:</strong> (లేట్) అలివేలమ్మ
         </p>      
+        <p>
+          <strong>తాతయ్య:</strong> (లేట్) కడలి సత్యనారాయణ
+        </p>
+        <p>
+          <strong>అమ్మమ్మ:</strong> శ్రీమతి కడలి విజయ
+        </p>      
       </div>
     ),
     contact: (
@@ -78,7 +87,8 @@ const TabContent = ({ activeTab, goToHome, openTheaterMode }) => {
           <strong>స్వస్థలం:</strong> రాజోలు
         </p>   
         <p>
-          <strong>జిల్లా:</strong> అంబేద్కర్ కొనసీమ
+          <strong>జిల్లా:</strong> అంబేద్కర్ కోనసీమ
+
         </p>   
         <p>
           <strong>ప్రస్తుతం నివాసం:</strong> రాజోలు
